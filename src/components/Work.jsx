@@ -3,7 +3,7 @@ import hybridWork from "../assets/images/hybridwork.png";
 
 const Work = () => {
   return (
-    <div className="flex items-center justify-between my-12">
+    <div className="container flex items-center justify-between my-12">
       <div>
         <p className="text-[48px] font-bold text-primary">
           Work together, <br />

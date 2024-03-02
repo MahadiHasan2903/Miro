@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { MdOutlineExpandMore } from "react-icons/md";
 import { TfiWorld } from "react-icons/tfi";
-import { MdArrowRightAlt } from "react-icons/md";
 import { Link } from "react-router-dom";
 import { navbarItems } from "../assets/data/data";
 import logo from "../assets/images/logo.png";
+import CustomButton from "./CustomButton";
 
 const Navbar = () => {
   // State to track the index of the expanded item
@@ -23,14 +23,14 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex justify-between items-center w-full border-b p-4 relative">
+    <div className="relative flex items-center justify-between w-full px-[150px] py-4 border-b">
       {/* left header */}
-      <div className="flex justify-start items-center w-1/2">
+      <div className="flex items-center justify-start w-1/2">
         <div>
           <img src={logo} alt="logo" />
         </div>
         <div
-          className="ml-12 flex gap-x-3 items-center"
+          className="flex items-center ml-12 gap-x-3"
           onMouseLeave={closeExpandedItems}
         >
           {navbarItems.map((item, index) => (
@@ -70,15 +70,13 @@ const Navbar = () => {
 
       {/* right header */}
       <div className="flex font-medium  justify-between gap-x-5 text-[16px] text-primary items-center">
-        <div className="flex   gap-x-1  items-center justify-center">
+        <div className="flex items-center justify-center gap-x-1">
           <TfiWorld />
           EN
         </div>
         <p>Contact Sales</p>
         <p>Login</p>
-        <button className="bg-secondary font-light text-white px-5 py-2 rounded-full flex items-center gap-x-2">
-          Sign up free <MdArrowRightAlt />
-        </button>
+        <CustomButton title="Sign up free" />
       </div>
     </div>
   );

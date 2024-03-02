@@ -6,7 +6,7 @@ import getApp from "../assets/images/getapp.png";
 
 const Hero = () => {
   return (
-    <div className="my-12 flex justify-between items-center">
+    <div className="container flex items-center justify-between my-12">
       <div>
         <p className="text-[48px] font-bold text-primary">
           Take ideas from <br />
@@ -30,7 +30,7 @@ const Hero = () => {
         </p>
 
         <div className="my-3 bg-[#f5f5f5] rounded-md  p-3 flex justify-center  items-center w-[400px]">
-          <div className=" flex flex-col justify-center items-start mr-10">
+          <div className="flex flex-col items-start justify-center mr-10 ">
             <div className="flex items-center justify-center gap-x-1">
               <IoIosStar size={20} color="#FF9D48" />
               <IoIosStar size={20} color="#FF9D48" />
@@ -42,7 +42,7 @@ const Hero = () => {
               Based on 5149+ reviews:
             </p>
           </div>
-          <div className="flex items-center font-bold justify-center gap-x-4 text-primary">
+          <div className="flex items-center justify-center font-bold gap-x-4 text-primary">
             <img src={getApp} alt="getApp" />
             <p>GetApp</p>
             <p>Captcha</p>

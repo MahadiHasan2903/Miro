@@ -3,7 +3,7 @@ import integrations from "../assets/images/all_integrations.png";
 
 const Integrations = () => {
   return (
-    <div className="flex items-center justify-between my-[150px]">
+    <div className="flex items-center justify-between my-[150px] container">
       <div>
         <img src={integrations} alt="integrations" className="w-full" />
       </div>

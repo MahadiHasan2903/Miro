@@ -1,8 +1,8 @@
-import { MdArrowRightAlt } from "react-icons/md";
+import CustomButton from "./CustomButton";
 
 const Collaborators = () => {
   return (
-    <div className="my-[200px]">
+    <div className="my-[200px] container">
       <div className="relative ">
         <p className="text-[48px] font-bold text-primary text-center">
           Collaborate without <br /> constraints
@@ -47,11 +47,7 @@ const Collaborators = () => {
       <div className="absolute text-[12px] font-bold px-2 py-1 bg-[#FFD02F] rounded-lg transform rotate-12  -translate-y-[28rem] translate-x-[58rem]">
         YOUR IDEA STARTS HERE
       </div>
-      <div className="flex items-center justify-center my-12">
-        <button className="flex items-center px-5 py-2 font-light text-white rounded-full bg-secondary gap-x-2">
-          Sign up free <MdArrowRightAlt />
-        </button>
-      </div>
+      <CustomButton title="Sign up free" />
     </div>
   );
 };
