@@ -1,3 +1,10 @@
+import walmart from "../images/Walmart.png";
+import volvo from "../images/Volvo.png";
+import cisco from "../images/cisco.png";
+import okta from "../images/okta.png";
+import Deloitte from "../images/deloitte.png";
+
+// data for navbar
 export const navbarItems = [
   {
     title: "Product",
@@ -49,4 +56,13 @@ export const navbarItems = [
     title: "Pricing",
     to: "#pricing",
   },
+];
+
+// data for sponsor component
+export const sponsors = [
+  { name: "Walmart", image: walmart },
+  { name: "Cisco", image: cisco },
+  { name: "Volvo", image: volvo },
+  { name: "Deloitte", image: Deloitte },
+  { name: "Okta", image: okta },
 ];
