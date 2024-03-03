@@ -1,10 +1,10 @@
 import "./App.css";
 import Brainstorm from "./components/Brainstorm";
 import Collaborators from "./components/Collaborators";
-import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Integrations from "./components/Integrations";
-import Navbar from "./components/Navbar";
+import Header from "./components/Layout/Header";
+import Footer from "./components/Layout/Footer";
 import Report from "./components/Report";
 import Sponsor from "./components/Sponsor";
 import Teams from "./components/Teams";
@@ -14,7 +14,7 @@ import Work from "./components/Work";
 function App() {
   return (
     <>
-      <Navbar />
+      <Header />
       <Hero />
       <Sponsor />
       <Collaborators />

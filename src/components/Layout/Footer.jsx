@@ -1,7 +1,7 @@
 import { FaTwitterSquare } from "react-icons/fa";
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaYoutubeSquare } from "react-icons/fa";
-import newsletter from "../assets/images/newslettter-bg.png";
+import newsletter from "../../assets/images/newslettter-bg.png";
 
 const Footer = () => {
   return (

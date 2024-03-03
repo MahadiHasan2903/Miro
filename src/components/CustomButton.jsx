@@ -1,6 +1,5 @@
 import { MdArrowRightAlt } from "react-icons/md";
 
-// eslint-disable-next-line react/prop-types
 const CustomButton = ({ title }) => {
   return (
     <div className="flex items-center justify-center ">
