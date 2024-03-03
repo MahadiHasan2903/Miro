@@ -59,7 +59,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-12">
-          <div className=" bg-tertiary rounded-xl lg:rounded-[40px]">
+          <div className=" bg-tertiary lg:block hidden  rounded-xl lg:rounded-[40px]">
             <div className="relative">
               <img src={newsletter} alt="newsletter" />
             </div>

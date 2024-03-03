@@ -8,7 +8,7 @@ const Collaborators = () => {
           Collaborate without <br /> constraints
         </p>
         <div className="flex flex-col items-start justify-between px-5 mt-10 lg:flex-row">
-          <div className="w-[330px]   text-start">
+          <div className=" w-full lg:w-[330px]   text-start">
             <p className="text-[24px] font-bold text-primary my-5">
               Free forever
             </p>
@@ -44,7 +44,7 @@ const Collaborators = () => {
           </div>
         </div>
       </div>
-      <div className="absolute text-[12px] font-bold px-2 py-1 bg-[#FFD02F] rounded-lg transform rotate-12  -translate-y-[28rem] translate-x-[58rem]">
+      <div className="hidden lg:block absolute text-[12px] font-bold px-2 py-1 bg-[#FFD02F] rounded-lg transform rotate-12  -translate-y-[28rem] translate-x-[58rem]">
         YOUR IDEA STARTS HERE
       </div>
       <div className="mt-10">

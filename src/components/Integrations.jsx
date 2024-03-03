@@ -3,7 +3,7 @@ import integrations from "../assets/images/all_integrations.png";
 
 const Integrations = () => {
   return (
-    <div className="flex lg:flex-row flex-col items-center justify-between my-[80px] lg:my-[150px] container">
+    <div className="flex lg:flex-row flex-col items-center mx-5 lg:mx-0 justify-between my-[80px] lg:my-[150px] container">
       <div>
         <img
           src={integrations}

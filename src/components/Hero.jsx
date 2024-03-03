@@ -6,7 +6,7 @@ import getApp from "../assets/images/getapp.png";
 
 const Hero = () => {
   return (
-    <div className="container flex flex-col items-center justify-between my-12 lg:flex-row">
+    <div className="container flex flex-col items-center justify-between mx-5 my-12 lg:mx-0 lg:flex-row">
       <div>
         <p className="text-[40px] lg:text-[48px] font-bold text-primary">
           Take ideas from <br />
