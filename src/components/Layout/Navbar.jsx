@@ -6,7 +6,7 @@ import CustomButton from "../CustomButton";
 
 const Navbar = ({ expandedItems, toggleExpand, closeExpandedItems }) => {
   return (
-    <div className="items-center justify-between hidden w-full ml-12 xl:flex">
+    <div className="items-center justify-between hidden w-full ml-12 lg:flex">
       <div
         className="flex items-center gap-x-3"
         onMouseLeave={closeExpandedItems}
@@ -32,7 +32,10 @@ const Navbar = ({ expandedItems, toggleExpand, closeExpandedItems }) => {
                   {expandedItems === index && (
                     <ul className="w-[100px]">
                       {item.children.map((child, childIndex) => (
-                        <li key={childIndex} className="text-white">
+                        <li
+                          key={childIndex}
+                          className="py-2 text-white border-b border-white"
+                        >
                           {child.title}
                         </li>
                       ))}

@@ -6,9 +6,9 @@ import getApp from "../assets/images/getapp.png";
 
 const Hero = () => {
   return (
-    <div className="container flex items-center justify-between my-12">
+    <div className="container flex flex-col items-center justify-between my-12 lg:flex-row">
       <div>
-        <p className="text-[48px] font-bold text-primary">
+        <p className="text-[40px] lg:text-[48px] font-bold text-primary">
           Take ideas from <br />
           better to best
         </p>
@@ -19,9 +19,9 @@ const Hero = () => {
         <input
           type="email"
           placeholder="Enter your work email"
-          className=" border my-3 border-gray-500 bg-white placeholder-primary rounded-full px-4 py-2 w-[450px]"
+          className=" border my-3 border-gray-500 bg-white placeholder-primary rounded-full px-4 py-2 w-[350px]  lg:w-[450px]"
         />
-        <button className="bg-secondary my-3 font-light text-white px-[173px] py-2 rounded-full flex items-center gap-x-2">
+        <button className="bg-secondary my-3 font-light text-white px-12 sm:px-[100px] lg:px-[173px] py-2 rounded-full flex items-center gap-x-2">
           Sign up free <MdArrowRightAlt />
         </button>
 
@@ -49,7 +49,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className="mt-[50px] lg:mt-0 ml-0 lg:ml-5">
         <img src={headerImg} alt="headerImg" />
       </div>
     </div>

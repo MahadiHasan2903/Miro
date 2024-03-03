@@ -15,7 +15,7 @@ const MobileNavbar = ({
   closeMenu,
 }) => {
   return (
-    <div className="flex justify-end xl:hidden">
+    <div className="flex justify-end lg:hidden">
       <CgMenuRightAlt
         size={30}
         className="transition-all cursor-pointer text-primary hover:text-secondary"
@@ -52,14 +52,17 @@ const MobileNavbar = ({
                   </p>
                   {item.children && (
                     <div
-                      className={`p-3 ml-[110px] mt-[-40px] ${
+                      className={`p-3 ml-[100px] mt-[-40px] ${
                         expandedItems === index ? "bg-primary" : "hidden"
                       } absolute`}
                     >
                       {expandedItems === index && (
                         <ul className="w-[100px]">
                           {item.children.map((child, childIndex) => (
-                            <li key={childIndex} className="text-white">
+                            <li
+                              key={childIndex}
+                              className="py-2 text-white border-b border-white"
+                            >
                               {child.title}
                             </li>
                           ))}

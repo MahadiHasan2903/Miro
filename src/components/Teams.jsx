@@ -3,16 +3,19 @@ import CustomButton from "./CustomButton";
 
 const Teams = () => {
   return (
-    <div className="container flex  flex-col justify-center mt-[200px]">
-      <p className="text-[48px] text-center font-bold text-primary">
+    <div className="container flex  flex-col justify-center mt-[100px] lg:mt-[200px]">
+      <p className="text-[40px] lg:text-[48px] text-center font-bold text-primary">
         Loved by the world&apos;s best teams
       </p>
       <div className="my-6">
         <CustomButton title="See all customer stories" />
       </div>
-      <div className="flex justify-between mt-12 gap-x-5">
+      <div className="flex flex-col justify-between mt-12 lg:flex-row gap-x-5">
         {teamsData.map((team, index) => (
-          <div key={index} className="w-1/3 mx-12">
+          <div
+            key={index}
+            className="w-full mx-2 my-5 lg:mx-12 lg:my-0 lg:w-1/3"
+          >
             <img src={team.img} alt={`Team ${index + 1}`} />
             <p className="mt-5 text-[18px]  text-primary opacity-75">
               {team.desc}
@@ -20,7 +23,7 @@ const Teams = () => {
           </div>
         ))}
       </div>
-      <div className="flex justify-between mx-8 mt-12 gap-x-5">
+      <div className="justify-between hidden mx-8 mt-12 lg:flex gap-x-5">
         {reviewerInfo.map((review, index) => (
           <div key={index} className="flex mt-10 gap-x-3 ">
             <div>

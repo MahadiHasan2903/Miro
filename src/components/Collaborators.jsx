@@ -2,12 +2,12 @@ import CustomButton from "./CustomButton";
 
 const Collaborators = () => {
   return (
-    <div className="my-[200px] container">
+    <div className="my-[100px] lg:my-[200px] container">
       <div className="relative ">
-        <p className="text-[48px] font-bold text-primary text-center">
+        <p className="text-[40px] md:text-[48px] font-bold text-primary text-center">
           Collaborate without <br /> constraints
         </p>
-        <div className="flex items-start justify-between px-5 mt-10">
+        <div className="flex flex-col items-start justify-between px-5 mt-10 lg:flex-row">
           <div className="w-[330px]   text-start">
             <p className="text-[24px] font-bold text-primary my-5">
               Free forever
@@ -47,7 +47,9 @@ const Collaborators = () => {
       <div className="absolute text-[12px] font-bold px-2 py-1 bg-[#FFD02F] rounded-lg transform rotate-12  -translate-y-[28rem] translate-x-[58rem]">
         YOUR IDEA STARTS HERE
       </div>
-      <CustomButton title="Sign up free" />
+      <div className="mt-10">
+        <CustomButton title="Sign up free" />
+      </div>
     </div>
   );
 };

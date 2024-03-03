@@ -3,12 +3,16 @@ import integrations from "../assets/images/all_integrations.png";
 
 const Integrations = () => {
   return (
-    <div className="flex items-center justify-between my-[150px] container">
+    <div className="flex lg:flex-row flex-col items-center justify-between my-[80px] lg:my-[150px] container">
       <div>
-        <img src={integrations} alt="integrations" className="w-full" />
+        <img
+          src={integrations}
+          alt="integrations"
+          className="w-full mb-10 lg:mb-0"
+        />
       </div>
       <div>
-        <p className="text-[48px] font-bold text-primary leading-none">
+        <p className="text-[40px] lg:text-[48px] font-bold text-primary leading-none">
           Connect <br />
           your tools, <br />
           close your tabs

@@ -6,9 +6,9 @@ import newsletter from "../../assets/images/newslettter-bg.png";
 const Footer = () => {
   return (
     <div className="mt-[100px] bg-primary">
-      <div className="container flex justify-between w-full p-12 mt-5 text-white">
+      <div className="container flex flex-col justify-between w-full p-12 mt-5 text-white lg:flex-row">
         <div className="flex flex-col w-1/2 mt-12">
-          <div className="flex items-start justify-between gap-x-5 ">
+          <div className="flex flex-col items-start justify-between lg:flex-row gap-x-5 ">
             <div>
               <p className=" text-[23px] font-extrabold">
                 Scan. Detect. Remove.
@@ -49,7 +49,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="mt-10 mb-5 mr-10">
+          <div className="mt-10 mb-5 mr-0 lg:mr-10">
             <p className="text-[12px]   opacity-60">
               Apple, the Apple logo, and iPhone are trademarks of Apple Inc.,
               registered in the U.S. and other countries. App Store is a service
@@ -59,15 +59,15 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-12">
-          <div className=" bg-tertiary rounded-[40px]">
+          <div className=" bg-tertiary rounded-xl lg:rounded-[40px]">
             <div className="relative">
               <img src={newsletter} alt="newsletter" />
             </div>
-            <div className="absolute -translate-y-[13rem] translate-x-[2rem] ">
-              <p className="text-[23px] text-primary font-extrabold ">
+            <div className=" m-2 absolute lg:-translate-y-[13rem] lg:translate-x-[2rem]  -translate-y-[9.54rem] translate-x-0]">
+              <p className="text-[16px] lg:text-[23px] text-primary font-extrabold ">
                 Sign up to our newsletter
               </p>
-              <p className="text-[15px] text-primary my-5">
+              <p className="text-[12px] lg:text-[15px] text-primary my-5">
                 Receive the latest mobile security news, exclusive <br />
                 discounts & offers straight to your inbox!
               </p>
@@ -76,7 +76,7 @@ const Footer = () => {
                 name="email"
                 id="email"
                 placeholder="Email Address"
-                className="py-1 px-3 text-[15px] rounded-l-2xl"
+                className="py-1 px-1 text-[15px]  lg:rounded-l-2xl"
               />
               <button className="py-1 font-bold rounded-r-2xl text-center px-6 bg-primary text-[15px]">
                 Submit

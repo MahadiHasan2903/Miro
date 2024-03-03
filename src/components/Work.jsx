@@ -3,9 +3,9 @@ import hybridWork from "../assets/images/hybridwork.png";
 
 const Work = () => {
   return (
-    <div className="container flex items-center justify-between my-12">
+    <div className="container flex flex-col items-center justify-between my-12 lg:flex-row">
       <div>
-        <p className="text-[48px] font-bold text-primary">
+        <p className=" text-[40px] lg:text-[48px] font-bold text-primary">
           Work together, <br />
           wherever you work
         </p>
