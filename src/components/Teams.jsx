@@ -4,7 +4,7 @@ import CustomButton from "./CustomButton";
 const Teams = () => {
   return (
     <div className="container flex  flex-col justify-center mt-[100px] lg:mt-[200px]">
-      <p className="text-[40px] lg:text-[48px] text-center font-bold text-primary">
+      <p className="text-[30px] lg:text-[48px] text-center font-bold text-primary">
         Loved by the world&apos;s best teams
       </p>
       <div className="my-6">

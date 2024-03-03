@@ -6,7 +6,7 @@ import newsletter from "../../assets/images/newslettter-bg.png";
 const Footer = () => {
   return (
     <div className="mt-[100px] bg-primary">
-      <div className="container flex flex-col justify-between w-full p-12 mt-5 text-white lg:flex-row">
+      <div className="flex flex-col justify-between w-full p-4 mt-5 text-white lg:p-12 md:container lg:flex-row">
         <div className="flex flex-col w-1/2 mt-12">
           <div className="flex flex-col items-start justify-between lg:flex-row gap-x-5 ">
             <div>
@@ -49,7 +49,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="mt-10 mb-5 mr-0 lg:mr-10">
+          <div className="w-full mt-10 mb-5 mr-0 lg:mr-10">
             <p className="text-[12px]   opacity-60">
               Apple, the Apple logo, and iPhone are trademarks of Apple Inc.,
               registered in the U.S. and other countries. App Store is a service
@@ -58,12 +58,12 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div className="mt-12">
-          <div className=" bg-tertiary lg:block hidden  rounded-xl lg:rounded-[40px]">
+        <div className="w-full lg:w-[400px] mt-12 lg:ml-12">
+          <div className=" bg-tertiary   rounded-xl lg:rounded-[40px]">
             <div className="relative">
               <img src={newsletter} alt="newsletter" />
             </div>
-            <div className=" m-2 absolute lg:-translate-y-[13rem] lg:translate-x-[2rem]  -translate-y-[9.54rem] translate-x-0]">
+            <div className=" m-2 xl:-translate-y-[12rem]   absolute lg:-translate-y-[11.5rem] lg:translate-x-[0.5rem]  sm:-translate-y-[12rem] sm:translate-x-2  -translate-y-[9.54rem] translate-x-2">
               <p className="text-[16px] lg:text-[23px] text-primary font-extrabold ">
                 Sign up to our newsletter
               </p>
@@ -76,9 +76,9 @@ const Footer = () => {
                 name="email"
                 id="email"
                 placeholder="Email Address"
-                className="py-1 px-1 text-[15px]  lg:rounded-l-2xl"
+                className="py-1 px-1 text-[15px]  rounded-l-2xl"
               />
-              <button className="py-1 font-bold rounded-r-2xl text-center px-6 bg-primary text-[15px]">
+              <button className="py-1 font-bold rounded-r-2xl text-center px-5 sm:px-6 bg-primary text-[15px]">
                 Submit
               </button>
             </div>

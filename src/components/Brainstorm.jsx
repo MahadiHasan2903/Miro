@@ -13,10 +13,10 @@ const Brainstorm = () => {
 
   return (
     <div className="container mt-[100px] lg:mt-12">
-      <p className=" text-[40px] lg:text-[48px] font-bold text-primary">
+      <p className=" text-[30px] lg:text-[48px] font-bold text-primary">
         Built for the way you work
       </p>
-      <div className="flex flex-col items-center justify-start my-10 md:flex-row gap-y-3 lg:gap-y-0 lg:gap-x-5">
+      <div className="flex flex-col items-center justify-start my-10 lg:flex-row gap-y-3 lg:gap-y-0 lg:gap-x-5">
         {/* Showing buttons dynamically */}
         {brainstormingButtons.map((button, index) => (
           <button

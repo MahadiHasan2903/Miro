@@ -75,7 +75,7 @@ const MobileNavbar = ({
             ))}
           </div>
 
-          <div className="mt-[350px]">
+          <div className="mt-[300px]">
             <div className="flex flex-col font-medium  items-start gap-y-5 text-[16px] text-primary ">
               <div className="flex items-center">
                 <div className="flex items-center justify-center mr-10 cursor-pointer gap-x-1">

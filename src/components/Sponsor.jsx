@@ -6,13 +6,13 @@ const Sponsor = () => {
       <p className="my-8 text-primary text-[18px] opacity-70">
         Trusted by 45M+ users
       </p>
-      <div className="flex items-center justify-center gap-x-2 lg:gap-x-[150px]">
+      <div className="flex items-center justify-center gap-x-2  lg:gap-x-[60px]">
         {sponsors.map((sponsor, index) => (
           <img
             key={index}
             src={sponsor.image}
             alt={sponsor.name}
-            className=" w-[70px]  lg:w-auto lg:h-auto"
+            className=" w-[50px] sm:w-[70px]  lg:w-auto lg:h-auto"
           />
         ))}
       </div>

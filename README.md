@@ -1,8 +1,30 @@
-# React + Vite
+# Project Title: "Miro"
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Technologies Used:
 
-Currently, two official plugins are available:
+- React
+- Vite
+- Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Responsiveness : The project is fully responsive, adapting to different screen sizes using Tailwind CSS viewport breakpoints:
+
+- sm (640px): @media (min-width: 640px) { ... }
+- md (768px): @media (min-width: 768px) { ... }
+- lg (1024px): @media (min-width: 1024px) { ... }
+- xl (1280px): @media (min-width: 1280px) { ... }
+
+# How to Run:
+
+To run this project locally, follow these steps:
+
+Clone the repository from the public GitHub repository.
+
+- git clone [repository-url]. Open the project in your preferred code editor.
+
+- Install project dependencies using npm:
+
+  - npm install
+
+- Run the development server.
+  - npm run dev
+  - Access the project in your browser at http://localhost:5173.

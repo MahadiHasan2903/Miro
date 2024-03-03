@@ -8,7 +8,7 @@ const Navbar = ({ expandedItems, toggleExpand, closeExpandedItems }) => {
   return (
     <div className="items-center justify-between hidden w-full ml-12 lg:flex">
       <div
-        className="flex items-center gap-x-3"
+        className="flex items-center gap-x-2 xl:gap-x-3"
         onMouseLeave={closeExpandedItems}
       >
         {navbarItems.map((item, index) => (
@@ -47,7 +47,7 @@ const Navbar = ({ expandedItems, toggleExpand, closeExpandedItems }) => {
           </Link>
         ))}
       </div>
-      <div className="flex font-medium  justify-between gap-x-5 text-[16px] text-primary items-center">
+      <div className="flex font-medium  justify-between lg:gap-x-3 xl:gap-x-5 text-[16px] text-primary lg:ml-5 items-center">
         <div className="flex items-center justify-center cursor-pointer gap-x-1">
           <TfiWorld />
           EN
