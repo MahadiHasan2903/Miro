@@ -13,7 +13,7 @@ import Work from "./components/Work";
 
 function App() {
   return (
-    <>
+    <div>
       <Header />
       <Hero />
       <Sponsor />
@@ -25,7 +25,7 @@ function App() {
       <UXDesign />
       <Teams />
       <Footer />
-    </>
+    </div>
   );
 }
 
